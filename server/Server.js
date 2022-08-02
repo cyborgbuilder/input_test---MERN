@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 
-mongoose.connect("mongodb+srv://admin:RBrTZAc2xXQ1B3r0@cluster0.waeic8y.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect(Your Mongo URL);
 
 
 app.use("/", require("./routes/noteRoutes"));
